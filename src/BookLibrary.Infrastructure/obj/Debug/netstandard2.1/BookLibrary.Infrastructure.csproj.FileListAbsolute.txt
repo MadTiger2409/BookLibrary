@@ -1,0 +1,12 @@
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\bin\Debug\netstandard2.1\BookLibrary.Infrastructure.deps.json
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\bin\Debug\netstandard2.1\BookLibrary.Infrastructure.dll
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\bin\Debug\netstandard2.1\BookLibrary.Infrastructure.pdb
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\bin\Debug\netstandard2.1\BookLibrary.Domain.dll
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\bin\Debug\netstandard2.1\BookLibrary.Domain.pdb
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.AssemblyInfo.cs
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.csproj.CopyComplete
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.dll
+C:\Projects\GitHub\BookLibrary\BookLibrary.Infrastructure\obj\Debug\netstandard2.1\BookLibrary.Infrastructure.pdb

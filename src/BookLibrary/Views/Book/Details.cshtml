@@ -1,0 +1,47 @@
+﻿@model BookLibrary.ViewModels.BookDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Book.Title;
+}
+
+<div class="text-center">
+    <h2 class="display-4">@Model.Book.Title</h2>
+    <h5>by @Model.Book.Author</h5>
+
+    <div class="card-body border">
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">First release: @Model.Book.ReleaseDate.Date.ToLongDateString()</h6>
+                <hr />
+                <p class="card-text">@Model.Book.Description</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Reservations</h5>
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">User</th>
+                            <th scope="col">Reservation date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 1; i <= Model.Reservations.Count(); i++)
+                        {
+                            <tr>
+                                <th scope="row">@i</th>
+                                <td>@Model.Reservations[i - 1].UserLogin</td>
+                                <td>@Model.Reservations[i - 1].ReservedAt.Date.ToShortDateString()</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

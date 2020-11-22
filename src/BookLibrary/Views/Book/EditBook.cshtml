@@ -1,0 +1,58 @@
+﻿@model BookLibrary.Infrastructure.Commands.Book.UpdateBook
+
+@{
+    ViewData["Title"] = "Add book";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Edit book</h1>
+
+    <div class="card-body rounded border bg-light">
+        <form class="text-left" action="/books/edit" method="post">
+            <input type="hidden" value="@Model.Id" name="Id" />
+
+            <div class="form-group">
+                <label for="title">Title</label>
+                @Html.TextBoxFor(model => model.Title, new
+           {
+               @type = "text",
+               @class = "form-control",
+               @id = "title",
+               @value = Model.Title
+           })
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="author">Author</label>
+                @Html.TextBoxFor(model => model.Author, new
+           {
+               @type = "text",
+               @class = "form-control",
+               @id = "author",
+               @value = Model.Author
+           })
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="releaseDate">Release date</label>
+                <input asp-for="ReleaseDate" type="date" asp-format="{0:yyyy-MM-dd}" class="form-control" />
+
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                @Html.TextAreaFor(model => model.Description, new
+           {
+               @class = "form-control",
+               @id = "description",
+               @value = Model.Description
+           })
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Edit</button>
+        </form>
+    </div>
+</div>

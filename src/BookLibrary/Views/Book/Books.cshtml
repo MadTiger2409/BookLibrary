@@ -1,0 +1,40 @@
+﻿@model IEnumerable<BookLibrary.Infrastructure.Dto.BookUserIdsDto>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Books</h1>
+
+    <div class="text-left card-body rounded border pt-5 bg-light">
+        @foreach (var book in Model)
+        {
+            <div class="card mb-4">
+                <div class="card-body rounded">
+                    <h4 class="card-title">@book.Title</h4>
+                    <h6 class="card-subtitle">@book.Author</h6>
+                    <hr />
+                    <p class="card-text">@book.Description</p>
+                    <hr />
+                    @if (!book.UserIds.Contains(int.Parse(User.Claims.ToList()[1].Value)))
+                    {
+                        <form action="/books/reserve" method="post"><input type="hidden" name="bookId" value="@book.Id" /><input type="submit" class="btn btn-primary" value="Reserve" /></form>
+
+                    }
+                    else
+                    {
+                        <a href="#" class="btn btn-secondary disabled">Reserved</a>
+                    }
+                    @{
+                        <a href="/books/@book.Id" class="btn btn-info">Details</a>
+                    }
+
+                    @{
+                        <a href="/books/@book.Id/edit" class="btn btn-warning">Edit</a>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
