@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Domain\\BookLibrary.Domain.csproj": {}
+    "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Domain\\BookLibrary.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Domain\\BookLibrary.Domain.csproj": {
+    "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Domain\\BookLibrary.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Domain\\BookLibrary.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Domain\\BookLibrary.Domain.csproj",
         "projectName": "BookLibrary.Domain",
-        "projectPath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Domain\\BookLibrary.Domain.csproj",
+        "projectPath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Domain\\BookLibrary.Domain.csproj",
         "packagesPath": "C:\\Users\\Cyber\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Domain\\obj\\",
+        "outputPath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

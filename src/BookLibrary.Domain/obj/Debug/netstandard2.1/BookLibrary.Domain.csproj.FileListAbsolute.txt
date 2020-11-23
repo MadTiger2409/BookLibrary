@@ -7,3 +7,12 @@ C:\Projects\GitHub\BookLibrary\BookLibrary.Domain\obj\Debug\netstandard2.1\BookL
 C:\Projects\GitHub\BookLibrary\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.dll
 C:\Projects\GitHub\BookLibrary\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.pdb
 C:\Projects\GitHub\BookLibrary\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.csprojAssemblyReference.cache
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\bin\Debug\netstandard2.1\BookLibrary.Domain.deps.json
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\bin\Debug\netstandard2.1\BookLibrary.Domain.dll
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\bin\Debug\netstandard2.1\BookLibrary.Domain.pdb
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.csprojAssemblyReference.cache
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.AssemblyInfoInputs.cache
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.AssemblyInfo.cs
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.dll
+C:\Projects\GitHub\BookLibrary\src\BookLibrary.Domain\obj\Debug\netstandard2.1\BookLibrary.Domain.pdb

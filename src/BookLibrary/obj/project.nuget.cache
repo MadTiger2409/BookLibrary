@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yB6rFQHutEmPZEYJE9vfTu5lvJj36T8fwU+09BieqifHWLK4Pt4WDjmTB7PUySfflrNRW7etj8m07xFllPO9Ag==",
+  "dgSpecHash": "OTViTNPBhscudOGKbbmOCHwGVUjH+d2bhF026aL/WkWC54A0PVCfE5ku3XxAMc/0et/HT46YXRciOCgJeiULKA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+  "projectFilePath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary\\BookLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cyber\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Cyber\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

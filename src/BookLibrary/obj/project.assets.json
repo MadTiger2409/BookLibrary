@@ -6205,11 +6205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+      "projectUniqueName": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary\\BookLibrary.csproj",
       "projectName": "BookLibrary",
-      "projectPath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+      "projectPath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary\\BookLibrary.csproj",
       "packagesPath": "C:\\Users\\Cyber\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary\\obj\\",
+      "outputPath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6231,8 +6231,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Infrastructure\\BookLibrary.Infrastructure.csproj": {
-              "projectPath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Infrastructure\\BookLibrary.Infrastructure.csproj"
+            "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Infrastructure\\BookLibrary.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Infrastructure\\BookLibrary.Infrastructure.csproj"
             }
           }
         }

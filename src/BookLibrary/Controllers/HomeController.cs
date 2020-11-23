@@ -3,13 +3,9 @@ using BookLibrary.Infrastructure.Services.Interfaces;
 using BookLibrary.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -17,19 +13,16 @@ namespace BookLibrary.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private readonly IUserService _userService;
 
-        public HomeController(ILogger<HomeController> logger, IUserService userService)
+        public HomeController(IUserService userService)
         {
-            _logger = logger;
             _userService = userService;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            _logger.LogInformation($"Connected by: {HttpContext.Connection.Id}");
             return View();
         }
 
@@ -66,7 +59,15 @@ namespace BookLibrary.Controllers
                 return Redirect("Index");
             }
 
-            return Ok(command);
+            return View("Index", command);
+        }
+
+        [HttpGet("sign-out")]
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

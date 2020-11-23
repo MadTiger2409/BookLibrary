@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6KWzT3hv5oer02HuB5vp9bR7IEx3fOYwj/wGXkHArSo4i6+noP2dvzve72u0Y13WV2SOFKSFOZKXNv68ogEg8w==",
+  "dgSpecHash": "TQlvR4OrsGTSk4R0pNN+6fHjc8/5vDUEl2/ByWXFP+s7Kf4nbJ3ysOZwr0kuiWE2+QGiJmP+y5riEsIGS9cBbA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\GitHub\\BookLibrary\\BookLibrary.Infrastructure\\BookLibrary.Infrastructure.csproj",
+  "projectFilePath": "C:\\Projects\\GitHub\\BookLibrary\\src\\BookLibrary.Infrastructure\\BookLibrary.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cyber\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Cyber\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

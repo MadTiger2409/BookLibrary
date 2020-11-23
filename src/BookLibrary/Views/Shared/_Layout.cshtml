@@ -9,34 +9,33 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-primary text-light">
             <div class="navbar w-100 order-1 order-md-0 dual-collapse2">
                 <div class="navbar d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">BookLibrary</a>
+                        </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Books">Book list</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Book" asp-action="Books">Book list</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="NewBook">Add book</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Book" asp-action="NewBook">Add book</a>
                             </li>
                         }
                     </ul>
                 </div>
             </div>
-            <div class="navbar w-100 order-1 order-md-0 dual-collapse2">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BookLibrary</a>
-            </div>
-            <div class="navbar w-200 order-3 dual-collapse2">
+            <div class="navbar w-100 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <span>@User.Identity.Name</span>
-
-                        }
-                    </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="LogOut">Sign Out</a>
+                        </li>
+                    }
                 </ul>
             </div>
         </nav>
@@ -47,8 +46,8 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-muted bg-primary">
+        <div class="container  text-light">
             &copy; 2020 - BookLibrary
         </div>
     </footer>
